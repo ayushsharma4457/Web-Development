@@ -1,0 +1,24 @@
+/*Selector Specificty: 0,0,1*/
+h2{
+    color: deepskyblue;
+}
+/*Selector Specificty: 0,1,0*/
+.highlights{
+    color: deeppink;
+}
+/*Selector Specificty: 1,0,0*/
+#product{
+    color: darkgreen;
+}
+
+h3 {
+    color: red !important;
+}
+/*It is important keyword which is ingore selector specificty*/
+#important{
+    color: brown;
+}
+/*Selector Specificty: 1,1,0*/
+#product.highlights{
+    color: darkorange;
+}
