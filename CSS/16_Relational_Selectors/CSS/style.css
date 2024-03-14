@@ -1,0 +1,19 @@
+/*Descendant Selectors: Apply On All Element Inside The Section*/
+#product p{
+    color: orange;
+}
+
+/*Child Selectors: Apply On First Element(Child) Inside The Section*/
+#product > p{
+    color: red;
+}
+
+/*Adjacent Sibling Selectors: Apply On First Element(Sibling) After The Section*/
+#product + p{
+    color: magenta;
+}
+
+/*General Sibling Selectors: Apply On All Element(Sibling) After The Section*/
+#product ~ p{
+    color: blue;
+}
