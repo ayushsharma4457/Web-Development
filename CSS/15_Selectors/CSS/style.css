@@ -1,0 +1,28 @@
+/*Type Selector*/
+p{
+    color: gold;
+}
+
+/*ID Selector*/
+#id-selector{
+    color: red;
+}
+
+/*Class Selector*/
+.class-selector{
+    color: blue;
+}
+
+/*Attribute Selector*/
+a[href^="https"][href$=".com"]{
+    color: orange;
+}
+
+a[href*="google"]{
+    color: magenta;
+}
+
+a[target="_blank"]{
+    color: maroon;
+}
+
