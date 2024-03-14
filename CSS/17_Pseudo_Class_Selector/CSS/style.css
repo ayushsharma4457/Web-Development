@@ -1,0 +1,43 @@
+/*First Child Fragile The Code When selector use for paragraph
+and heading is there or any change paragraph this its changes to that
+element*/
+article :first-child{
+    color: maroon;
+    font-size: 80px;
+}
+
+/*first-of-type*/
+article p:first-of-type{
+    font-weight: bold;
+}
+
+/*last-child: In This Code Can Fragile And Break Rules, if there is
+any change*/ 
+article :last-child{
+    color: gold;
+}
+
+/*last-of-type*/
+article p:last-of-type{
+    color: red;
+    font-size: 50px;
+}
+
+/*nth-child()*/
+ul li:nth-child(odd)
+{
+    font-weight: bold;
+    color: deeppink;
+}
+
+/*Color Of Visited Link*/
+a:visited{
+    color: deepskyblue;
+}
+
+/*Color For Hover: When put mouse pointer on link
+ Focus: When click tab then change color*/
+
+ a:hover, a:focus{
+    color: deeppink;
+ }
