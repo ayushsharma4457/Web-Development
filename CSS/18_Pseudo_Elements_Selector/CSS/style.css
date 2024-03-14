@@ -1,0 +1,21 @@
+p::first-letter{
+    font-size: 50px;
+}
+p::first-line{
+    font-weight: bold;
+}
+/*It only change the color of paragraph elemnts
+ To CHnage of every element then use ::selection
+ without selector.*/
+p::selection{
+    background-color: deeppink;
+}
+/*
+p::before{
+    content: "....";
+    display: block;
+}
+*/
+P::after{
+    content: "...";
+}
