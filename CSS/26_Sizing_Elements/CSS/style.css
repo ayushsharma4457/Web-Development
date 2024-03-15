@@ -1,0 +1,15 @@
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+.box::before{
+    content: "Hello";
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: deeppink;
+    border: 10px solid deepskyblue;
+    padding: 20px;
+    box-sizing: border-box;
+}
