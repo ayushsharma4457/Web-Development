@@ -1,0 +1,15 @@
+.tweet{
+    border: 3px solid lightslategray;
+}
+.pic{
+    width: 7rem;
+    height: 7rem;
+    background-color: deeppink;
+    float: left;
+}
+
+.clearfix::after{
+    clear: both;
+    content: ' ';
+    display: block;
+}
