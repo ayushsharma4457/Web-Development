@@ -1,0 +1,26 @@
+.boxes{
+    border: 3px solid lightslategrey;
+    position: relative;
+}
+
+.box-one{
+    width: 7rem;
+    height: 7rem;
+    background-color: gold;
+}
+
+.box-two{
+    width: 7rem;
+    height: 7rem;
+    background-color: deeppink;
+    position: absolute;
+    right: 0rem;
+}
+
+.box-three{
+    width: 7rem;
+    height: 7rem;
+    background-color: deepskyblue;
+    position: relative;
+    left: 7rem;
+}
