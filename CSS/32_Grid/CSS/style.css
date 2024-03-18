@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    /*3 Rows 2 Columns */
+    grid-template: auto auto / 30fr 70fr;
+    height: 97vh;
+    border: 3px solid lightseagreen;
+    justify-items: stretch;
+    align-items: stretch;
+    justify-content: center;
+    gap: 10px;
+    grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "footer footer";
+}
+
+.box{
+    background-color: deeppink;
+    
+}
+
+.box-one{
+    grid-column: header;
+}
+
+.box-last{
+    grid-area: footer;
+}
