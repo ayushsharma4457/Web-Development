@@ -1,0 +1,29 @@
+article:first-of-type{
+    font-size: 140%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article ul:nth-child(odd)
+{
+    color: deeppink;
+}
+
+article:last-child{
+    font-weight: bolder;
+}
+
+a:hover, a:focus{
+    color: deepskyblue;
+}
+
+a:visited{
+    color: tomato;
+}
+
+a:link{
+    color: aqua;
+}
+
+a:active{
+    color: yellowgreen;
+}

@@ -1,0 +1,16 @@
+
+#products p{ /*Color All Paragraphs Inside Product Section */
+    color: orangered;
+}
+
+#products >p{ /*Color direct child Paragraphs of the Product Section */
+    color: deeppink;
+}
+
+#products +p{ /*Color The Paragraphs After Product Section Immediately Only One */
+    color: deepskyblue;
+}
+
+#products ~p{ /*Color All Paragraphs After Product Section */
+    color: brown;
+}

@@ -1,0 +1,32 @@
+p
+{
+    color: blue;
+}
+
+#product{
+
+}
+
+.products{
+
+}
+
+a[target]
+{
+
+}
+
+a[target="_blank"]{
+    color: deeppink;
+        background-color: orange;
+}
+
+a[href^="https"]
+{
+
+}
+
+a[href$="com"]
+{
+    
+}
