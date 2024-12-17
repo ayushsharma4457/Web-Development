@@ -1,0 +1,20 @@
+.head{
+    color: green;
+}
+#para{
+    color: deeppink;
+    font-weight: 900;
+}
+body #para{
+    color: deepskyblue;
+}
+
+.paraclass{
+    color: blue;
+}
+#praid{
+    color: yellow;
+}
+#paraid{
+    color: brown;
+}

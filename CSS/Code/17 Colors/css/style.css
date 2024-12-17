@@ -1,0 +1,25 @@
+.col{
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+}
+
+.col1{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(250, 25, 10, 0.5);
+    /*background-color: rgb(250, 25, 10);*/
+}
+
+.col2{
+    height: 200px;
+    width: 200px;
+    background-color: hsl(53deg 63% 77% );
+    /*background-color: hsla(53, 63%, 77%, 1);*/
+}
+
+.col3{
+    height: 200px;
+    width: 200px;
+    background-color: #060606;
+}

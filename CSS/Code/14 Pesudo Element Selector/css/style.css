@@ -1,0 +1,22 @@
+.para::first-letter
+{
+    font-size: 140%;
+    font-weight: 900;
+}
+
+.para::first-line
+{
+    font-weight: 900;
+}
+
+::selection{
+    background-color: deeppink;
+}
+.para::before{
+    content: "....";
+}
+
+.para::after{
+    content: "...";
+    display: block;
+}

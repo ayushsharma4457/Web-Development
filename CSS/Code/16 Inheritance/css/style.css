@@ -1,0 +1,11 @@
+.inherit{
+    color: deeppink;
+}
+
+.non-inherit{
+    border: medium solid;
+}
+
+em{
+    border: inherit;
+}
