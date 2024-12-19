@@ -1,0 +1,8 @@
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: deeppink;
+    padding: 20px;
+    border: 10px solid coral;
+    box-sizing: border-box;
+}
